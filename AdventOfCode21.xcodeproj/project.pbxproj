@@ -11,7 +11,22 @@
 		F24762542757DB1400DD9492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24762532757DB1400DD9492 /* ContentView.swift */; };
 		F24762562757DB1500DD9492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24762552757DB1500DD9492 /* Assets.xcassets */; };
 		F24762592757DB1500DD9492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24762582757DB1500DD9492 /* Preview Assets.xcassets */; };
+		F24762612757DB3600DD9492 /* input01.txt in Resources */ = {isa = PBXBuildFile; fileRef = F24762602757DB3600DD9492 /* input01.txt */; };
+		F24762632757DB5D00DD9492 /* DayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24762622757DB5D00DD9492 /* DayOne.swift */; };
+		F24762722757DC0700DD9492 /* Day01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24762712757DC0700DD9492 /* Day01Tests.swift */; };
+		F24762742757DC6200DD9492 /* testInput01.txt in Resources */ = {isa = PBXBuildFile; fileRef = F24762732757DC6200DD9492 /* testInput01.txt */; };
+		F24762762757E96000DD9492 /* Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24762752757E96000DD9492 /* Part.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F247626C2757DBED00DD9492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24762462757DB1400DD9492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F247624D2757DB1400DD9492;
+			remoteInfo = AdventOfCode21;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F247624E2757DB1400DD9492 /* AdventOfCode21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode21.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +35,23 @@
 		F24762552757DB1500DD9492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F24762582757DB1500DD9492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F247625A2757DB1500DD9492 /* AdventOfCode21.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdventOfCode21.entitlements; sourceTree = "<group>"; };
+		F24762602757DB3600DD9492 /* input01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input01.txt; sourceTree = "<group>"; };
+		F24762622757DB5D00DD9492 /* DayOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOne.swift; sourceTree = "<group>"; };
+		F24762682757DBED00DD9492 /* AdventOfCode21Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventOfCode21Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24762712757DC0700DD9492 /* Day01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01Tests.swift; sourceTree = "<group>"; };
+		F24762732757DC6200DD9492 /* testInput01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput01.txt; sourceTree = "<group>"; };
+		F24762752757E96000DD9492 /* Part.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F247624B2757DB1400DD9492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24762652757DBED00DD9492 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				F24762502757DB1400DD9492 /* AdventOfCode21 */,
+				F24762692757DBED00DD9492 /* AdventOfCode21Tests */,
 				F247624F2757DB1400DD9492 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				F247624E2757DB1400DD9492 /* AdventOfCode21.app */,
+				F24762682757DBED00DD9492 /* AdventOfCode21Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +84,9 @@
 			children = (
 				F24762512757DB1400DD9492 /* AdventOfCode21App.swift */,
 				F24762532757DB1400DD9492 /* ContentView.swift */,
+				F24762622757DB5D00DD9492 /* DayOne.swift */,
+				F24762752757E96000DD9492 /* Part.swift */,
+				F24762602757DB3600DD9492 /* input01.txt */,
 				F24762552757DB1500DD9492 /* Assets.xcassets */,
 				F247625A2757DB1500DD9492 /* AdventOfCode21.entitlements */,
 				F24762572757DB1500DD9492 /* Preview Content */,
@@ -67,6 +100,15 @@
 				F24762582757DB1500DD9492 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F24762692757DBED00DD9492 /* AdventOfCode21Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F24762712757DC0700DD9492 /* Day01Tests.swift */,
+				F24762732757DC6200DD9492 /* testInput01.txt */,
+			);
+			path = AdventOfCode21Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +131,24 @@
 			productReference = F247624E2757DB1400DD9492 /* AdventOfCode21.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F24762672757DBED00DD9492 /* AdventOfCode21Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F247626E2757DBED00DD9492 /* Build configuration list for PBXNativeTarget "AdventOfCode21Tests" */;
+			buildPhases = (
+				F24762642757DBED00DD9492 /* Sources */,
+				F24762652757DBED00DD9492 /* Frameworks */,
+				F24762662757DBED00DD9492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F247626D2757DBED00DD9492 /* PBXTargetDependency */,
+			);
+			name = AdventOfCode21Tests;
+			productName = AdventOfCode21Tests;
+			productReference = F24762682757DBED00DD9492 /* AdventOfCode21Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,9 +158,14 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = dasdom;
 				TargetAttributes = {
 					F247624D2757DB1400DD9492 = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					F24762672757DBED00DD9492 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F247624D2757DB1400DD9492;
 					};
 				};
 			};
@@ -118,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				F247624D2757DB1400DD9492 /* AdventOfCode21 */,
+				F24762672757DBED00DD9492 /* AdventOfCode21Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +194,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F24762592757DB1500DD9492 /* Preview Assets.xcassets in Resources */,
+				F24762612757DB3600DD9492 /* input01.txt in Resources */,
 				F24762562757DB1500DD9492 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24762662757DBED00DD9492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24762742757DC6200DD9492 /* testInput01.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,12 +214,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24762762757E96000DD9492 /* Part.swift in Sources */,
 				F24762542757DB1400DD9492 /* ContentView.swift in Sources */,
 				F24762522757DB1400DD9492 /* AdventOfCode21App.swift in Sources */,
+				F24762632757DB5D00DD9492 /* DayOne.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24762642757DBED00DD9492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24762722757DC0700DD9492 /* Day01Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F247626D2757DBED00DD9492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F247624D2757DB1400DD9492 /* AdventOfCode21 */;
+			targetProxy = F247626C2757DBED00DD9492 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F247625B2757DB1500DD9492 /* Debug */ = {
@@ -316,6 +409,52 @@
 			};
 			name = Release;
 		};
+		F247626F2757DBED00DD9492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6PD97MRX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.dasdom.AdventOfCode21Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventOfCode21.app/Contents/MacOS/AdventOfCode21";
+			};
+			name = Debug;
+		};
+		F24762702757DBED00DD9492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6PD97MRX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.dasdom.AdventOfCode21Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventOfCode21.app/Contents/MacOS/AdventOfCode21";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +472,15 @@
 			buildConfigurations = (
 				F247625E2757DB1500DD9492 /* Debug */,
 				F247625F2757DB1500DD9492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F247626E2757DBED00DD9492 /* Build configuration list for PBXNativeTarget "AdventOfCode21Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F247626F2757DBED00DD9492 /* Debug */,
+				F24762702757DBED00DD9492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
