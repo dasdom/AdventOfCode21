@@ -12,6 +12,7 @@ struct ContentView: View {
     HStack {
       DayOneView()
       DayTwoView()
+      DayThreeView()
     }
     .padding()
   }

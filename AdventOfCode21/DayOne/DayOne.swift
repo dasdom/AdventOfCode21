@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct DayOne {
+struct DayOne: DayProtocol {
 
   let url: URL?
   let id = 1
