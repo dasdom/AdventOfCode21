@@ -19,6 +19,11 @@
 		F234ADB4275A073600339A51 /* DayThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234ADB3275A073600339A51 /* DayThreeTests.swift */; };
 		F234ADB7275A075200339A51 /* testInput03.txt in Resources */ = {isa = PBXBuildFile; fileRef = F234ADB6275A075200339A51 /* testInput03.txt */; };
 		F234ADB9275A127200339A51 /* DayThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234ADB8275A127200339A51 /* DayThreeView.swift */; };
+		F234ADBB275BD11800339A51 /* DayFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234ADBA275BD11800339A51 /* DayFourTests.swift */; };
+		F234ADBE275BD13600339A51 /* testInput04.txt in Resources */ = {isa = PBXBuildFile; fileRef = F234ADBD275BD13600339A51 /* testInput04.txt */; };
+		F234ADC0275BD1BC00339A51 /* DayFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234ADBF275BD1BC00339A51 /* DayFour.swift */; };
+		F234ADC3275BD1F500339A51 /* input04.txt in Resources */ = {isa = PBXBuildFile; fileRef = F234ADC2275BD1F500339A51 /* input04.txt */; };
+		F234ADC5275BE88D00339A51 /* DayFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234ADC4275BE88D00339A51 /* DayFourView.swift */; };
 		F24762522757DB1400DD9492 /* AdventOfCode21App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24762512757DB1400DD9492 /* AdventOfCode21App.swift */; };
 		F24762542757DB1400DD9492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24762532757DB1400DD9492 /* ContentView.swift */; };
 		F24762562757DB1500DD9492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24762552757DB1500DD9492 /* Assets.xcassets */; };
@@ -53,6 +58,11 @@
 		F234ADB3275A073600339A51 /* DayThreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayThreeTests.swift; sourceTree = "<group>"; };
 		F234ADB6275A075200339A51 /* testInput03.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput03.txt; sourceTree = "<group>"; };
 		F234ADB8275A127200339A51 /* DayThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayThreeView.swift; sourceTree = "<group>"; };
+		F234ADBA275BD11800339A51 /* DayFourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFourTests.swift; sourceTree = "<group>"; };
+		F234ADBD275BD13600339A51 /* testInput04.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testInput04.txt; sourceTree = "<group>"; };
+		F234ADBF275BD1BC00339A51 /* DayFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFour.swift; sourceTree = "<group>"; };
+		F234ADC2275BD1F500339A51 /* input04.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input04.txt; sourceTree = "<group>"; };
+		F234ADC4275BE88D00339A51 /* DayFourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFourView.swift; sourceTree = "<group>"; };
 		F247624E2757DB1400DD9492 /* AdventOfCode21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24762512757DB1400DD9492 /* AdventOfCode21App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode21App.swift; sourceTree = "<group>"; };
 		F24762532757DB1400DD9492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +152,25 @@
 			path = DayThree;
 			sourceTree = "<group>";
 		};
+		F234ADBC275BD11B00339A51 /* DayFour */ = {
+			isa = PBXGroup;
+			children = (
+				F234ADBA275BD11800339A51 /* DayFourTests.swift */,
+				F234ADBD275BD13600339A51 /* testInput04.txt */,
+			);
+			path = DayFour;
+			sourceTree = "<group>";
+		};
+		F234ADC1275BD1C300339A51 /* DayFour */ = {
+			isa = PBXGroup;
+			children = (
+				F234ADC4275BE88D00339A51 /* DayFourView.swift */,
+				F234ADBF275BD1BC00339A51 /* DayFour.swift */,
+				F234ADC2275BD1F500339A51 /* input04.txt */,
+			);
+			path = DayFour;
+			sourceTree = "<group>";
+		};
 		F24762452757DB1400DD9492 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +197,7 @@
 				F234ADA8275930FD00339A51 /* DayOne */,
 				F234ADA92759311500339A51 /* DayTwo */,
 				F234ADAE275A068600339A51 /* DayThree */,
+				F234ADC1275BD1C300339A51 /* DayFour */,
 				F24762752757E96000DD9492 /* Part.swift */,
 				F234ADAA275A05E400339A51 /* DayProtocol.swift */,
 				F24762552757DB1500DD9492 /* Assets.xcassets */,
@@ -191,6 +221,7 @@
 				F234ADB1275A06F000339A51 /* DayOne */,
 				F234ADB2275A06FA00339A51 /* DayTwo */,
 				F234ADB5275A073B00339A51 /* DayThree */,
+				F234ADBC275BD11B00339A51 /* DayFour */,
 			);
 			path = AdventOfCode21Tests;
 			sourceTree = "<group>";
@@ -278,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F24762592757DB1500DD9492 /* Preview Assets.xcassets in Resources */,
+				F234ADC3275BD1F500339A51 /* input04.txt in Resources */,
 				F234AD9D275923E900339A51 /* input02.txt in Resources */,
 				F24762612757DB3600DD9492 /* input01.txt in Resources */,
 				F24762562757DB1500DD9492 /* Assets.xcassets in Resources */,
@@ -290,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F234ADB7275A075200339A51 /* testInput03.txt in Resources */,
+				F234ADBE275BD13600339A51 /* testInput04.txt in Resources */,
 				F24762742757DC6200DD9492 /* testInput01.txt in Resources */,
 				F234ADA32759288D00339A51 /* testInput02.txt in Resources */,
 			);
@@ -312,6 +345,8 @@
 				F24762542757DB1400DD9492 /* ContentView.swift in Sources */,
 				F24762522757DB1400DD9492 /* AdventOfCode21App.swift in Sources */,
 				F24762632757DB5D00DD9492 /* DayOne.swift in Sources */,
+				F234ADC5275BE88D00339A51 /* DayFourView.swift in Sources */,
+				F234ADC0275BD1BC00339A51 /* DayFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +356,7 @@
 			files = (
 				F24762722757DC0700DD9492 /* DayOneTests.swift in Sources */,
 				F234ADB4275A073600339A51 /* DayThreeTests.swift in Sources */,
+				F234ADBB275BD11800339A51 /* DayFourTests.swift in Sources */,
 				F234ADA12759282B00339A51 /* DayTwoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
